@@ -493,6 +493,5 @@ def handle_messages(message):
     
     # Сохраняем данные пользователя после обработки сообщения
     save_user_data()
-
 # Запуск бота
 bot.polling()
