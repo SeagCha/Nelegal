@@ -445,8 +445,6 @@ def handle_messages(message):
                     reply_markup=info_keyboard
                 )
 
-                print("Hello")
-
             else:
                 bot.send_message(
                     message.chat.id,
